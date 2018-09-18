@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* 
+Font-Family: 'Roboto', Sans-Serif;
+Font-Family: 'Droid Serif', Serif;
+ */
+
+body{
+    font-family: 'Fauna One', Serif;
+    background-color: whitesmoke;
+}
+header{
+    font-size: 2.5em;
+    padding: 20px;
+    text-align: center;
+    color: #262626;
+}
+h1{
+    font-family: 'Cinzel', Cursive;
+    text-align: center;
+    color: #262626;
+}
+nav, .project-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.resume, .phone{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    padding-top: 45px;
+    font-family: 'Cinzel', Cursive;
+    font-size: .40em;
+    color: white;
+    background-color: #262626;
+    margin-top: 3px;
+}
+img:hover{
+    border: 3px solid #ca307c;
+    border-radius: 50%;
+}
+.resume a {
+    color: #FFFFFF;
+} 
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ca307c;
+}
+.resume:hover{
+    border: 3px solid #ca307c;
+}
+nav{
+    border-top: 4px groove #262626;
+    padding: 15px;
+    margin: 25px;
+}
+main{
+    background-image: url("./img/cozy-coder.jpg");
+    height: 150vh;
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 45px;
+}
+.projectList{
+    padding-top: 45px;
+    height: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: whitesmoke;
+}
+.project:hover{
+    border: 3px solid #ca307c;
+}
+.projectName{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.bookClub{
+    background-image: url("./img/vintage-book-stack_50.jpg");
+    background-position: center;
+}
+.artsyApi{
+    background-image: url("./img/key-hole_50.jpeg");
+    background-position: center;
+}
+.babyName{
+    background-image: url("./img/baby-love_50.jpeg");
+    background-position: center;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    background-color: #262626;
+    color: #FFFFFF;
+}
+.footer{
+    padding: 25px;    
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Roboto', Sans-Serif;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    h1{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: .75em;
+    }
+}
+@media only screen and (max-width: 300px) {
+    h1{
+        font-size: 1em;
+    }
+    h3{
+        font-size: .5em;
+    }
+    /* .project{
+        height: 125px;
+        width: 125px;
+    } */
+}
