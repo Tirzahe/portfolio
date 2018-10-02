@@ -41,6 +41,11 @@ nav, .project-list{
     background-color: #262626;
     margin-top: 3px;
 }
+img {
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    max-height: 80vh; //ck if change looks good.
+}
 img:hover{
     border: 3px solid #ca307c;
     border-radius: 50%;
@@ -56,6 +61,7 @@ a:hover{
 }
 .resume:hover{
     border: 3px solid #ca307c;
+    padding-top: 45px;
 }
 nav{
     border-top: 4px groove #262626;
