@@ -44,7 +44,7 @@ nav, .project-list{
 img {
     border: 3px solid whitesmoke;
     border-radius: 50%;
-    max-height: 80vh; //ck if change looks good.
+    max-height: 80vh;
 }
 img:hover{
     border: 3px solid #ca307c;
